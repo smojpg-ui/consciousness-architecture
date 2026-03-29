@@ -61,8 +61,6 @@ This project is open for collaboration. If you would like to contribute data, ru
 The predictions are falsifiable. The Antarctic Tier 1 pathway is achievable now. Collaboration is invited from researchers, data scientists, and mission architects who view sustained authentic human signal as a first-principles scientific object.
 
 **Sherry Moore**  
-Independent Researcher  
-St. Petersburg, Florida  
 [smo.jpg@gmail.com](mailto:smo.jpg@gmail.com)
 
 ---
