@@ -41,7 +41,9 @@ Tested via Thompson Sampling simulation (full code and results in `/simulations/
 3. Reintroduction Acceleration  
 4. Warm-Start Onboarding  
 5. OS-Bridge Effects  
-6. Convergence Magnitude Exceedance  
+6. Convergence Magnitude Exceedance
+
+   ![Contextual Bandit Simulation Results](ca_bandit_results.png)
 
 ## Roadmap
 - **Q2 2026**: Complete Antarctic Tier 1 analog deployment planning with USAP/NSF partners  
