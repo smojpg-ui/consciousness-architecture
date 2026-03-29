@@ -18,10 +18,10 @@ class ThompsonBandit:
     def update(self, arm: int, reward: float):
         self.alpha[arm] += reward
         self.beta_param[arm] += (1 - reward)
-        
+    
     def get_state(self):
         return self.alpha.copy(), self.beta_param.copy()
-        
+    
     def set_state(self, alpha, beta):
         self.alpha = alpha.copy()
         self.beta_param = beta.copy()
@@ -35,7 +35,7 @@ def run_bandit(steps: int = 10000, noise_level: float = 0.0, bandit: ThompsonBan
     for t in range(steps):
         arm = bandit.choose_arm()
         # Probability of reward is true affinity penalized by noise
-        prob = max(0.0, min(1.0, TRUE_AFFINITIES[arm] * (1 - noise_level)))
+        prob = np.clip(TRUE_AFFINITIES[arm] * (1 - noise_level), 0, 1)
         reward = np.random.binomial(1, prob)
         bandit.update(arm, reward)
         rewards[t] = reward
@@ -115,8 +115,8 @@ print(f"  Reintroduced steps to 0.80: {reintro_steps}")
 print("\nP4: Warm-Start Onboarding")
 warm_steps, cold_steps = [], []
 for _ in range(5): 
-    warm_rewards, _, _ = run_bandit(steps=5000, noise_level=0.0) # Mature signal
-    cold_rewards, _, _ = run_bandit(steps=5000, noise_level=0.15) # New/Noisy signal
+    warm_rewards, _, _ = run_bandit(steps=5000, noise_level=0.0)
+    cold_rewards, _, _ = run_bandit(steps=5000, noise_level=0.15)
     warm_steps.append(steps_to_threshold(warm_rewards))
     cold_steps.append(steps_to_threshold(cold_rewards))
 
