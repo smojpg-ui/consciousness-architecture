@@ -1,4 +1,4 @@
-# Concious Architecture & POTS
+# Conscious Architecture & POTS
 **Emergent Behavioral Signal Convergence Across Disconnected Systems**
 
 [![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg)](https://github.com/smojpg-ui/conscious-architecture)
