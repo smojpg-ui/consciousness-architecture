@@ -1,4 +1,4 @@
-# Conscience Architecture
+# Consciousness Architecture
 **Emergent Behavioral Signal Convergence Across Disconnected Systems**
 
 **Sherry Moore**  
