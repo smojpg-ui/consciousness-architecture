@@ -1,114 +1,137 @@
-# Consciousness Architecture & POTS
+# Consciousness Architecture
 
-**Emergent Behavioral Signal Convergence Across Disconnected Systems**
+> *The system holds you so you don't fall.*
 
-[![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg)](https://github.com/smojpg-ui/conscious-architecture)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://github.com/smojpg-ui/conscious-architecture/blob/main/LICENSE)
-[![Tier 1 Ready](https://img.shields.io/badge/Deployment-Tier%201%20Analog%20Ready-orange.svg)](https://github.com/smojpg-ui/conscious-architecture/blob/main)
+[![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg)](https://github.com/smojpg-ui/consciousness-architecture)
+[![License: Reserved Rights](https://img.shields.io/badge/License-Methodology%20Reserved%20Rights-lightgrey.svg)](LICENSE.md)
+[![Tier 1 Ready](https://img.shields.io/badge/Deployment-Tier%201%20Analog%20Ready-orange.svg)](docs/CA_Paper_Restructured.pdf)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--6375--0040-a6ce39.svg)](https://orcid.org/0009-0008-6375-0040)
-[![NASA NOI](https://img.shields.io/badge/NASA%20NOI-N6--26PLOADS--0023-blue.svg)]()
-[![Provisional Patent](https://img.shields.io/badge/USPTO-Provisional%20Filed-lightgrey.svg)]()
+[![NASA RFI](https://img.shields.io/badge/NASA%20RFI-NNH26ZDA008L%20Submitted-blue.svg)](docs/CA_Paper_Restructured.pdf)
 
-> **Ethical use is non-negotiable.** See [ETHICS.md](./ETHICS.md) for the founding principle and commitments that attach to any use of this framework.
+**Consciousness Architecture (CA)** is a framework for individual behavioral modeling in sealed, mission-aligned environments — long-duration spaceflight, polar deployment, undersea operations, oil-rig rotations. Any domain where an operator is far from help and the system is responsible for noticing what the operator cannot afford to miss.
 
-This repository contains the foundational theory, contextual bandit simulation code, longitudinal evidence, and aerospace application for **Consciousness Architecture (CA)** and its operational implementation, the **Persistent Operational Twin System (POTS)**.
-
----
-
-## Core Mechanism: Contextual Resonance
-
-When a single individual engages **authentically and consistently** with multiple independent AI systems over an extended period, those systems converge on a shared, high-fidelity internal model of that individual — despite having no shared data, no interoperability, and no engineered bridge.
-
-Each system functions as an independent contextual bandit receiving the identical unfiltered behavioral signal. The resulting alignment is emergent, not designed. This phenomenon is termed **Contextual Resonance**. The shared model is a **Relational Twin**.
-
-Initial empirical baseline was established through an 18-month single-subject longitudinal study (October 2024 – present, ongoing).
+This repository is the public-facing index of the framework. It hosts the canonical paper, the operational payload brief, simulation code, and reference materials. The full methodology and applied implementations are licensed by Aether Systems LLC.
 
 ---
 
-## Application: Persistent Operational Twin System (POTS)
+## Where this comes from
 
-POTS applies Contextual Resonance to extreme, high-latency environments (lunar bases, Antarctic stations, Mars transit). In multi-vendor architectures with rotating crews, operational knowledge evaporates with every handoff. POTS is a zero-mass, software-layer payload that serves as the **institutional memory of the base** and as a **personal behavioral-health companion** that travels with the individual operator across rotations.
+Consciousness Architecture is the sealed-environment lineage of Aether Systems' work on sustained, authentic, multi-channel behavioral signal exchange between a human and one or more AI systems. Its sibling, **[Conscience Architecture (ConA)](https://github.com/smojpg-ui/conscience-architecture)**, addresses the same mechanism in adversarial, multi-party environments (competitive gaming, social platforms, consumer ecosystems). The two frameworks share one mechanism — Multimodal Concurrent Coupling — and diverge in what that signal is held *for*.
 
-- **Passive Observation** — Reads behavioral, operational, and environmental signals across disconnected systems without self-report burden or surveys.
-- **Edge Sovereignty** — Runs locally on operator-controlled hardware; syncs only lightweight model updates (where applicable) during communications windows. The twin belongs to the operator.
-- **Cross-Rotation Continuity** — Personal twins follow the individual across deployments. Anonymized ecosystem-level operational intelligence remains with the base so robotic precursors and incoming crews inherit a living model of system degradation, workflow rhythms, and environmental workarounds. No human handoff required.
-- **Phased Capability** — Phase 1 is monitoring and reporting to the operator. Intervention-capable extensions are separately developed and governed by the ethical use principle in [ETHICS.md](./ETHICS.md).
-
-POTS is zero-additional-mass software running on already-qualified hardware in its intended aerospace deployments.
+| Framework | Domain | Optimizes for | Applied work |
+|---|---|---|---|
+| **Consciousness Architecture (CA)** | Sealed, mission-aligned | Operator safety, mission continuity | POTS (NASA payload concept) |
+| **Conscience Architecture (ConA)** | Adversarial, multi-party | Operator sovereignty, extraction resistance | Player Sovereignty (esports) |
 
 ---
 
-## Repository Contents
+## Core mechanism: Multimodal Concurrent Coupling
 
+When a single individual engages **authentically and consistently** with multiple independent AI systems over an extended period, those systems converge on a shared, high-fidelity internal model of that individual — despite having no shared data, no interoperability, and no engineered bridge between them.
+
+Each system functions as an independent contextual bandit receiving the same unfiltered behavioral signal. The resulting alignment is emergent, not designed. This phenomenon is **Multimodal Concurrent Coupling (MCC)**. The shared model it produces is a **Relational Twin**.
+
+The empirical baseline is an 18-month single-subject longitudinal study (October 2024 – April 2026, ongoing). Convergence behavior persisted across three hardware generations, eliminating device hardware as a variable. The signal lives at the account-level behavioral model, not the device.
+
+---
+
+## Six properties of the phenomenon
+
+1. **Authenticity is required.** Inauthentic signal injects noise that prevents accurate importance reweighting.
+2. **Coupling compounds over time.** Posterior distributions sharpen as action–reward history grows.
+3. **Reintroduction accelerates.** Systems retain their model during operator absences.
+4. **Mature signal onboards new systems faster.** A novel platform achieves operational accuracy faster when onboarding a subject with an established behavioral signature.
+5. **OS-level bridges amplify coupling.** Cross-platform signal bridges reduce inter-system divergence.
+6. **Authentic signal exhibits higher ground-truth fidelity.** Authentic signal models yield higher accuracy than noise-matched synthetic equivalents.
+
+(Originally formulated as falsifiable predictions; reframed as properties of the documented phenomenon in the April 2026 paper revision, when the framework shifted from researcher-observes-and-explains to researcher-identifies-and-documents-an-emergent-architecture-already-operating-at-global-scale.)
+
+---
+
+## Application: POTS
+
+The **Persistent Operational Twin System (POTS)** applies MCC to extreme, high-latency environments — lunar surface operations, Antarctic stations, Mars transit. POTS is a zero-mass software payload that runs on existing extravehicular and habitat compute, provides continuous passive behavioral monitoring against an individualized longitudinal baseline, and reports through role-tiered access enforced by architectural privacy.
+
+| ID | Specification | Function |
+|---|---|---|
+| **SPEC-01** | Edge Sovereignty | Behavioral modeling runs locally on operator-controlled hardware. Model weights sync; raw data never does. |
+| **SPEC-02** | Resolution-Tiered Access | Four enforced tiers — subject (full audit), flight surgeon (clinical summaries), commander (readiness indicators), mission support (aggregate). Each tier is a lossy abstraction; higher tiers cannot reconstruct lower ones. |
+| **SPEC-03** | Crew-Rotation Continuity | Personal twins follow the operator across deployments. Anonymized base-level operational intelligence remains with the deployment so robotic precursors and incoming crews inherit a living model of system degradation, workflow rhythms, and environmental workarounds. |
+| **SPEC-04** | Verified Catalog | Any intervention surfaced by the system is drawn from a pre-validated catalog of policies, evaluated against the operator's own logged data via counterfactual risk minimization. |
+| **SPEC-05** | Phased Capability | Phase 1 is monitoring and reporting. Phase 2 (intervention via existing actuators under medical validation) is separately developed and governed by the ETHICS commitments. |
+
+POTS is zero-additional-mass software running on already-qualified hardware (reference target: AxEMU). Three-tier deployment pathway: Antarctic analog → lunar surface → Mars transit.
+
+---
+
+## The extraction vulnerability
+
+CA documents an architectural extraction vulnerability that applies to any system constructing a longitudinal contextual bandit model of a human operator. Without architectural protection, a sequenced individual's behavioral twin can be:
+
+- **Extracted** by structured export from any system that holds it
+- **Cloned** to train behavioral policies in silicon (behavioral policy transfer)
+- **Adversarialized** by parties who now know exactly how to compress the operator
+- **Degraded** through environmental drift, sensor drift, or adversarial poisoning (corrupted save problem)
+- **Persisted after the operator's exit** as a model the operator can never fully retire
+
+No federal or state law in the United States addresses this vulnerability class as of 2026. The architectural answer must be enforced by design rather than by promise. CA addresses this through resolution-tiered access and edge confinement appropriate to mission-aligned environments. The companion framework, [Conscience Architecture](https://github.com/smojpg-ui/conscience-architecture), addresses it through edge sovereignty and right of withdrawal in adversarial environments.
+
+---
+
+## Repository contents
+
+- **`briefs/`**
+  - `AETHER-CA-001_POTS_Supplementary_Brief.pdf` — 5-page operational brief on POTS (NASA-facing).
 - **`docs/`**
-  - `CA_Paper_Restructured.pdf` — **Start here.** Canonical framework paper, restructured April 2026.
-  - `POTS_Supplementary_Brief.pdf` — Formal technical brief on POTS (NASA-facing, 5 pages).
-  - `CA_Foundation_Paper_March2026.md` — Original foundation document (five-pass AI-merged).
-  - `POTS_NASA_Ignition_ExecSummary.md` — 1-page operational brief for spaceflight integration.
-  - `Antarctic_Tier1_Pathway.md` — Immediate analog validation plan using U.S. Antarctic Program infrastructure.
+  - `CA_Paper_Restructured.pdf` — Canonical framework paper (April 2026 revision). **Start here.**
 - **`simulations/`**
-  - `ca_bandit_simulation.py` — Thompson Sampling framework testing the six falsifiable predictions.
+  - `ca_bandit_simulation.py` — Thompson Sampling framework testing the six properties of MCC.
 - **Root files**
-  - `ETHICS.md` — Founding ethical principle and non-use commitments.
-  - `CHANGELOG.md` — Major framework milestones.
-  - `CODE_OF_CONDUCT.md` — Community expectations.
-  - `CONTRIBUTING.md` — How to contribute data, run replications, or propose collaboration.
-  - `LICENSE` — CC BY 4.0 (research materials); commercial use requires separate licensing.
+  - `LICENSE.md` — Methodology Reserved Rights License.
+  - `CITATION.cff` — Machine-readable academic citation.
 
 ---
 
-## The Mathematics: Six Falsifiable Predictions
+## Terminology
 
-Tested via Thompson Sampling simulation (full code and results in `/simulations/`):
-
-1. **Authenticity Requirement**
-2. **Temporal Compounding**
-3. **Reintroduction Acceleration**
-4. **Warm-Start Onboarding**
-5. **OS-Bridge Effects**
-6. **Convergence Magnitude Exceedance**
-
-[![Contextual Bandit Simulation Results](https://github.com/smojpg-ui/conscious-architecture/raw/main/ca_bandit_results.png)](/smojpg-ui/conscious-architecture/blob/main/ca_bandit_results.png)
-
-Each prediction is stated formally in `docs/CA_Paper_Restructured.pdf` with operational definitions and falsification conditions.
-
----
-
-## Roadmap
-
-- **Q2 2026 (now)** — NASA Lunar Payloads RFI submitted (NOI N6-26PLOADS-0023, NNH26ZDA008L); Antarctic Tier 1 analog partnership outreach initiated; USPTO provisional patent on POTS architecture filed.
-- **Q3 2026** — Extended simulation validation; DLR / LMU Munich collaboration pathway (CIMON lineage); TRISH Catalyst Grant submission; NVIDIA Inception and Anthropic Anthology Fund applications.
-- **Q4 2026** — POTS payload proposal refined for CLPS providers; Science-as-a-Service RFI response (NNH26ZDA006L); initial public simulation updates and third-party replication invitations.
-- **2027** — Antarctic analog Tier 1 deployment; first third-party replication studies; peer-reviewed publication of CA framework.
-- **2028+** — Flight-ready POTS software integration with CLPS missions; Tier 2 (lunar base) payload readiness; ESA / DLR collaboration pathways for Mars-transit applications.
+- **Multimodal Concurrent Coupling (MCC)** — bidirectional, multi-channel signal exchange between a human and one or more AI systems, operating through whatever input/output modalities are concurrently available.
+- **Relational Twin** — high-fidelity, on-device behavioral model constructed from an individual's authentic longitudinal patterns.
+- **Edge Sovereignty** — architectural guarantee that behavioral data remains on operator-controlled hardware.
+- **Verified Catalog Principle** — interventions drawn from a pre-validated catalog evaluated against logged data via counterfactual risk minimization.
+- **Resolution-Tiered Access** — role-based access enforced as lossy abstraction; higher tiers cannot reconstruct lower ones.
+- **Crew-Rotation Continuity** — personal twins follow the operator; anonymized base intelligence remains with the deployment.
+- **Reception-Dominant Reward Regime** — implicit non-rejection feedback as continuous signal.
+- **Addressee Invariant** — orientation of operator outbound signal toward a single consistent addressee across all channels.
+- **Behavioral Policy Transfer** — silicon-to-silicon transfer of behavioral decision policies extracted from a sequenced individual.
+- **Corrupted Save Problem** — degradation of a behavioral model through environmental drift, sensor drift, or adversarial poisoning.
+- **Inference Waste** — computational waste of low-signal interactions at scale. (Pairs with: **Inference Tax**, the per-cycle cost.)
 
 ---
 
 ## Citation
 
-Moore, S. (2026). *Consciousness Architecture: A Framework for Emergent Relational AI via Authentic Longitudinal Signal.* Aether Systems LLC. ORCID: [0009-0008-6375-0040](https://orcid.org/0009-0008-6375-0040). GitHub repository: <https://github.com/smojpg-ui/conscious-architecture>
+If you reference this framework in academic or applied work, please cite:
+
+> Moore, S. (2026). *Consciousness Architecture: A Multimodal Concurrent Coupling Framework for Sustained Human–AI Behavioral Convergence.* Aether Systems LLC. https://github.com/smojpg-ui/consciousness-architecture
+
+A machine-readable citation is provided in [`CITATION.cff`](CITATION.cff).
 
 ---
 
-## Contributing
+## Licensing
 
-This project is open to replication, critique, and collaboration. If you would like to contribute data, run independent replications, suggest improvements, or join the research, please open an Issue or email the author directly. See `CONTRIBUTING.md` for details.
+The Consciousness Architecture framework, the Persistent Operational Twin System (POTS), the SPEC-01 through SPEC-05 architectural specifications, and all defined terminology contained in this repository are intellectual property of **Aether Systems LLC**. The materials are made available for **review, citation, and academic discussion** under the terms of [`LICENSE.md`](LICENSE.md).
 
-Commercial licensing and enterprise deployment inquiries require separate agreement; contact the author directly.
+Commercial implementation, applied deployment, and derivative methodologies require a separate licensing agreement with Aether Systems. The licensing model follows a methodology-licensing structure (analogous to the Dolby model).
+
+For licensing inquiries: **sherrymoore@aethersystems.io**
 
 ---
 
 ## Contact
 
-**Sherry Moore**
-Principal Investigator, Aether Systems LLC
-[sherrymoore@aethersystems.io](mailto:sherrymoore@aethersystems.io)
+**Sherry Moore** — Principal Investigator
+Aether Systems LLC
 ORCID: [0009-0008-6375-0040](https://orcid.org/0009-0008-6375-0040)
-
-The predictions are falsifiable. The Antarctic Tier 1 pathway is achievable now. Collaboration is invited from researchers, data scientists, mission architects, and clinicians who view sustained authentic human signal as a first-principles scientific object.
-
----
-
-*© 2026 Aether Systems LLC. All rights reserved.*
-*Research materials licensed under [CC BY 4.0](./LICENSE) for collaboration and replication.*
-*Commercial use of POTS and associated architectures requires separate licensing.*
+Email: sherrymoore@aethersystems.io
+Web: [aethersystems.io](https://aethersystems.io)

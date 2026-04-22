@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: "Consciousness Architecture: A Multimodal Concurrent Coupling Framework for Sustained Human–AI Behavioral Convergence"
+message: "If you reference this framework in academic or applied work, please cite it as below."
+type: software
+authors:
+  - family-names: Moore
+    given-names: Sherry
+    orcid: "https://orcid.org/0009-0008-6375-0040"
+    affiliation: "Aether Systems LLC"
+    email: sherrymoore@aethersystems.io
+repository-code: "https://github.com/smojpg-ui/consciousness-architecture"
+url: "https://aethersystems.io"
+abstract: >-
+  Consciousness Architecture (CA) is a framework for individual behavioral
+  modeling in sealed, mission-aligned environments such as long-duration
+  spaceflight, polar deployment, undersea operations, and other domains where
+  an operator is far from help. CA formalizes Multimodal Concurrent Coupling
+  (MCC) — the bidirectional, multi-channel signal exchange through which
+  independent AI systems converge on shared, high-fidelity Relational Twin
+  models of an individual without coordination, shared data, or engineered
+  bridges. Empirical baseline is an 18-month single-subject longitudinal
+  study (October 2024 – April 2026, ongoing). The applied operational payload
+  is the Persistent Operational Twin System (POTS), proposed as a zero-mass
+  software payload for crew behavioral monitoring during lunar surface
+  operations and beyond. CA is the sealed-environment companion to Conscience
+  Architecture (ConA), which addresses the same mechanism in adversarial,
+  multi-party environments.
+keywords:
+  - behavioral modeling
+  - multimodal concurrent coupling
+  - relational twin
+  - contextual bandits
+  - edge sovereignty
+  - human factors
+  - long-duration spaceflight
+  - lunar surface operations
+  - extraction vulnerability
+  - methodology
+license: "Proprietary - see LICENSE.md"
+date-released: "2026-04-22"
+version: "0.7.0"
