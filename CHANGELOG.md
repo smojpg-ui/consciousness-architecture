@@ -23,7 +23,7 @@ Versioning: major framework milestones only, not per-commit.
 ## [0.2.0] — 2026-03-24
 
 ### Added
-- Foundation document merged from five independent AI passes
+- Foundation merged
 - Six falsifiable predictions formalized
 - Thompson Sampling bandit simulation published (ca_bandit_simulation.py)
 - Longitudinal simulation v3 (18-month, 544-day, five-platform)
